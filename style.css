@@ -1,0 +1,64 @@
+body{
+	max-width: 2000px;
+	background: rgb(150,150,150);
+}
+label{
+	font-size: 20px;
+	color:rgb(50,50,50);
+	font-weight: bold;
+}
+input{
+	margin: 10px 0;
+	border-radius: 4px;
+	padding:6px 15px;
+	outline: none;
+	border: 1px solid rgb(100,100,100);
+}
+button{
+	padding:10px 28px;
+	border-radius: 5px;
+	background: white;
+	border:none;
+	margin-bottom: 10px;
+}
+#first, #second, #three {
+	width: 400px;
+}
+#answer, #answerTwo, #thirdAnswer, #fourth {
+	height: 25px;
+	font-size: 24px;
+	color:orange;
+	font-size: bold;
+}
+#fourth{
+	font-size: 30px;
+	position: relative;
+	top: 90px;
+}
+#firstTask {
+	text-align: center;
+}
+#secondTask {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+	margin-left: 15%;
+}
+#thirdTask {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: center;
+	margin-right: 15%;
+}
+
+#fourthTask{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+#while{
+	margin-bottom: 10px;
+}
